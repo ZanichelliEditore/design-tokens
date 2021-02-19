@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600&display=swap");
+:root {
+  --gray950: #47220f;
+  --gray900: #853a15;
+  --gray800: #c2511a;
+  --gray700: #ff691f;
+  --gray600: #ff8124;
+  --gray500: #ff9829;
+  --gray400: #ffb02e;
+  --gray300: #ffc733;
+  --gray200: #ffd352;
+  --gray150: #ffde72;
+  --gray100: #ffea91;
+  --gray50: #fff5b0;
+}
+
+:root {
+  --blue950: #47220f;
+  --blue900: #853a15;
+  --blue800: #c2511a;
+  --blue700: #ff691f;
+  --blue600: #ff8124;
+  --blue500: #ff9829;
+  --blue400: #ffb02e;
+  --blue300: #ffc733;
+  --blue200: #ffd352;
+  --blue150: #ffde72;
+  --blue100: #ffea91;
+  --blue50: #fff5b0;
+}
+
+:root {
+  --green950: #47220f;
+  --green900: #853a15;
+  --green800: #c2511a;
+  --green700: #ff691f;
+  --green600: #ff8124;
+  --green500: #ff9829;
+  --green400: #ffb02e;
+  --green300: #ffc733;
+  --green200: #ffd352;
+  --green150: #ffde72;
+  --green100: #ffea91;
+  --green50: #fff5b0;
+}
+
+:root {
+  --yellow950: #47220f;
+  --yellow900: #853a15;
+  --yellow800: #c2511a;
+  --yellow700: #ff691f;
+  --yellow600: #ff8124;
+  --yellow500: #ff9829;
+  --yellow400: #ffb02e;
+  --yellow300: #ffc733;
+  --yellow200: #ffd352;
+  --yellow150: #ffde72;
+  --yellow100: #ffea91;
+  --yellow50: #fff5b0;
+}
+
+:root {
+  --red950: #47220f;
+  --red900: #853a15;
+  --red800: #c2511a;
+  --red700: #ff691f;
+  --red600: #ff8124;
+  --red500: #ff9829;
+  --red400: #ffb02e;
+  --red300: #ffc733;
+  --red200: #ffd352;
+  --red150: #ffde72;
+  --red100: #ffea91;
+  --red50: #fff5b0;
+}
+
+:root {
+  --myz-blue: #0056c1;
+  --myz-blue-dark: #003476;
+  --myz-blue-light: #1973e1;
+  --myz-blue-lighter: #e1f0ff;
+  --myz-red: #e2001a;
+  --myz-red-dark: #80000f;
+  --myz-red-light: #ff808e;
+  --accent: #add2ff;
+  --accent-dark: #78b5ff;
+  --accent-light: #d0e9ff;
+  --accent-lighter: #ebf4ff;
+  --bg-grey-050: #f6f6f6;
+  --bg-grey-200: #e6e6e6;
+  --bg-grey-700: #676b6f;
+  --bg-grey-800: #424548;
+  --bg-grey-900: #333333;
+  --bg-white: #ffffff;
+  --bg-neutral-100: #e8ebee;
+  --bg-neutral-150: #d9dee3;
+  --bg-neutral-200: #cad1d8;
+  --bg-neutral-300: #aeb8c2;
+  --bg-neutral-400: #919eac;
+  --bg-neutral-500: #738596;
+  --bg-neutral-600: #5c6b7a;
+  --bg-neutral-700: #46525d;
+  --bg-neutral-800: #303840;
+  --status-error-red: #dc3122;
+  --status-error-red-dark: #7e0a00;
+  --status-error-red-light: #ff9c9c;
+  --status-error-red-lighter: #fdefee;
+  --status-warning-yellow: #f6bb3b;
+  --status-warning-yellow-dark: #85641a;
+  --status-warning-yellow-light: #fee17f;
+  --status-warning-yellow-lighter: #fbf4e6;
+  --status-success-green: #417505;
+  --status-success-green-dark: #233a00;
+  --status-success-green-light: #95d150;
+  --status-success-green-lighter: #effce0;
+  --text-grey-800: #424548;
+  --text-grey-700: #676b6f;
+  --text-grey-200: #e6e6e6;
+  --text-grey-050: #f6f6f6;
+  --text-white: #ffffff;
+}
+
+:root {
+  --dashboard-font: IBM Plex Sans;
+  --font-lt: 300;
+  --font-rg: 400;
+  --font-sb: 600;
+}
+
+:root {
+  --scape-unit: 8 ;
+}
+
+/*# sourceMappingURL=tokens.css.map */

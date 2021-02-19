@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "build:themes:red": "sass ./src/modules/themes/red.scss ./dist/themes/red.css",
+    "build:themes:yellow": "sass ./src/modules/themes/yellow.scss ./dist/themes/yellow.css",
+    "build:themes:green": "sass ./src/modules/themes/green.scss ./dist/themes/green.css",
+    "build:themes:blue": "sass ./src/modules/themes/blue.scss ./dist/themes/blue.css",
+    "build:themes:gray": "sass ./src/modules/themes/gray.scss ./dist/themes/gray.css",
+    "build:themes": "yarn build:themes:red && yarn build:themes:yellow && yarn build:themes:green && yarn build:themes:blue && yarn build:themes:gray",
+    "build:tokens": "sass ./src/main.scss ./dist/tokens.css",
+    "build": "yarn build:themes && yarn build:tokens"
+  },
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}
