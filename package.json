@@ -1,6 +1,6 @@
 {
   "name": "@zanichelli/albe-design-tokens",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "license": "MIT",
   "files": [
     "dist/tokens.css",
@@ -11,6 +11,7 @@
     "dist/themes/gray.css"
   ],
   "scripts": {
+    "release": "standard-version",
     "build:themes:red": "sass ./src/modules/themes/red.scss ./dist/themes/red.css",
     "build:themes:yellow": "sass ./src/modules/themes/yellow.scss ./dist/themes/yellow.css",
     "build:themes:green": "sass ./src/modules/themes/green.scss ./dist/themes/green.css",
@@ -21,6 +22,7 @@
     "build": "yarn build:themes && yarn build:tokens"
   },
   "devDependencies": {
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "standard-version": "^9.1.1"
   }
 }
