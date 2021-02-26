@@ -1,5 +1,15 @@
 {
+  "name": "@zanichelli/albe-design-tokens",
+  "version": "0.1.10",
   "license": "MIT",
+  "files": [
+    "dist/tokens.css",
+    "dist/themes/yellow.css",
+    "dist/themes/green.css",
+    "dist/themes/red.css",
+    "dist/themes/blue.css",
+    "dist/themes/gray.css"
+  ],
   "scripts": {
     "build:themes:red": "sass ./src/modules/themes/red.scss ./dist/themes/red.css",
     "build:themes:yellow": "sass ./src/modules/themes/yellow.scss ./dist/themes/yellow.css",
