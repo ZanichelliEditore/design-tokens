@@ -128,7 +128,24 @@
 }
 
 :root {
-  --space-unit: 8 ;
+  --space-unit: 8px ;
+}
+
+:root {
+  --shawod-color-light: rgba(66, 69, 72, 0.35)
+  --shawod-color-dark: rgba(66, 69, 72, 0.40)
+  --shadow-inset-2: inset 0 2px 4px 0 var(--shadow-color-light);
+  --shadow-inset-4: inset 0 4px 8px 0 var(--shadow-color-light);
+  --shadow-0: 0 0 0 0 var(--shadow-color-dark);
+  --shadow-1: 0 1px 2px 0 var(--shadow-color-dark);
+  --shadow-2: 0 2px 4px 0 var(--shadow-color-dark);
+  --shadow-3: 0 3px 6px 0 var(--shadow-color-dark);
+  --shadow-4: 0 4px 8px 0 var(--shadow-color-dark);
+  --shadow-6: 0 6px 12px 0 var(--shadow-color-dark);
+  --shadow-8: 0 8px 16px 0 var(--shadow-color-dark);
+  --shadow-12: 0 12px 24px 0 var(--shadow-color-light);
+  --shadow-16: 0 16px 32px 0 var(--shadow-color-light);
+  --shadow-24: 0 24px 48px 0 var(--shadow-color-light);
 }
 
 /*# sourceMappingURL=tokens.css.map */
