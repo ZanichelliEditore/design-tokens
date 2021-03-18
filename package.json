@@ -1,14 +1,10 @@
 {
   "name": "@zanichelli/albe-design-tokens",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "license": "MIT",
   "files": [
     "dist/tokens.css",
-    "dist/themes/yellow.css",
-    "dist/themes/green.css",
-    "dist/themes/red.css",
-    "dist/themes/blue.css",
-    "dist/themes/gray.css"
+    "dist/themes/default.css"
   ],
   "scripts": {
     "release": "standard-version",
