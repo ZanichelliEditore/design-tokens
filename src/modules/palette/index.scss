@@ -3,3 +3,11 @@
 @import 'green';
 @import 'yellow';
 @import 'red';
+
+:root{
+  --color-error-default: #DC3122;
+  --color-success-default: #417505;
+  --color-warning-default: #F6BB3B;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+}

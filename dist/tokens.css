@@ -1,77 +1,81 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600&display=swap");
 :root {
-  --gray950: #47220f;
-  --gray900: #853a15;
-  --gray800: #c2511a;
-  --gray700: #ff691f;
-  --gray600: #ff8124;
-  --gray500: #ff9829;
-  --gray400: #ffb02e;
-  --gray300: #ffc733;
-  --gray200: #ffd352;
-  --gray150: #ffde72;
-  --gray100: #ffea91;
-  --gray50: #fff5b0;
+  --gray950: #121212;
+  --gray900: #292929;
+  --gray800: #3D3D3D;
+  --gray700: #525252;
+  --gray600: #666666;
+  --gray500: #9B9B9B;
+  --gray400: #ADADAD;
+  --gray300: #C2C2C2;
+  --gray200: #D6D6D6;
+  --gray100: #EBEBEB;
+  --gray50: #F6F6F6;
 }
 
 :root {
-  --blue950: #47220f;
-  --blue900: #853a15;
-  --blue800: #c2511a;
-  --blue700: #ff691f;
-  --blue600: #ff8124;
-  --blue500: #ff9829;
-  --blue400: #ffb02e;
-  --blue300: #ffc733;
-  --blue200: #ffd352;
-  --blue150: #ffde72;
-  --blue100: #ffea91;
-  --blue50: #fff5b0;
+  --blue950: #001229;
+  --blue900: #001F46;
+  --blue800: #002C63;
+  --blue700: #003981;
+  --blue600: #0047A0;
+  --blue500: #0056C1;
+  --blue400: #2E76CE;
+  --blue300: #5893DB;
+  --blue200: #82B0E7;
+  --blue100: #ACCDF3;
+  --blue50: #D6EAFF;
 }
 
 :root {
-  --green950: #47220f;
-  --green900: #853a15;
-  --green800: #c2511a;
-  --green700: #ff691f;
-  --green600: #ff8124;
-  --green500: #ff9829;
-  --green400: #ffb02e;
-  --green300: #ffc733;
-  --green200: #ffd352;
-  --green150: #ffde72;
-  --green100: #ffea91;
-  --green50: #fff5b0;
+  --green950: #19200A;
+  --green900: #22330A;
+  --green800: #2B4808;
+  --green700: #355D06;
+  --green600: #407305;
+  --green500: #568818;
+  --green400: #6F9D2F;
+  --green300: #8AB14A;
+  --green200: #A6C66B;
+  --green100: #C3DA92;
+  --green50: #E1EDC3;
 }
 
 :root {
-  --yellow950: #47220f;
-  --yellow900: #853a15;
-  --yellow800: #c2511a;
-  --yellow700: #ff691f;
-  --yellow600: #ff8124;
-  --yellow500: #ff9829;
-  --yellow400: #ffb02e;
-  --yellow300: #ffc733;
-  --yellow200: #ffd352;
+  --yellow950: #33280F;
+  --yellow900: #5C4615;
+  --yellow800: #85641A;
+  --yellow700: #AB8125;
+  --yellow600: #D09E30;
+  --yellow500: #F6BB3B;
+  --yellow400: #F9C852;
+  --yellow300: #FBD468;
+  --yellow200: #FEE17F;
   --yellow150: #ffde72;
-  --yellow100: #ffea91;
-  --yellow50: #fff5b0;
+  --yellow100: #FFEA91;
+  --yellow50: #FBF4E6;
 }
 
 :root {
-  --red950: #47220f;
-  --red900: #853a15;
-  --red800: #c2511a;
-  --red700: #ff691f;
-  --red600: #ff8124;
-  --red500: #ff9829;
-  --red400: #ffb02e;
-  --red300: #ffc733;
-  --red200: #ffd352;
-  --red150: #ffde72;
-  --red100: #ffea91;
-  --red50: #fff5b0;
+  --red950: #2A0005;
+  --red900: #4C0009;
+  --red800: #6F000D;
+  --red700: #940111;
+  --red600: #BA0115;
+  --red500: #E2011A;
+  --red400: #EB4F60;
+  --red300: #EB4F60;
+  --red200: #F49DA7;
+  --red100: #F49DA7;
+  --red50: #FBDFE2;
+}
+
+:root {
+  --color-error-default: #DC3122;
+  --color-success-default: #417505;
+  --color-warning-default: #F6BB3B;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
 }
 
 :root {
@@ -128,7 +132,7 @@
 }
 
 :root {
-  --space-unit: 8px ;
+  --space-unit: 8px;
 }
 
 :root {
@@ -146,6 +150,13 @@
   --shadow-12: 0 12px 24px 0 var(--shadow-color-light);
   --shadow-16: 0 16px 32px 0 var(--shadow-color-light);
   --shadow-24: 0 24px 48px 0 var(--shadow-color-light);
+}
+
+:root {
+  --border-size-small: 1px;
+  --border-size-medium: 2px;
+  --border-radius: 4px;
+  --border-no-radius: 0;
 }
 
 /*# sourceMappingURL=tokens.css.map */
