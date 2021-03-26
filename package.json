@@ -1,6 +1,6 @@
 {
   "name": "@zanichelli/albe-design-tokens",
-  "version": "0.1.6",
+  "version": "0.1.61",
   "license": "MIT",
   "files": [
     "dist/tokens.css",
