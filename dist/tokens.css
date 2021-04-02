@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600&display=swap");
 :root {
   --gray950: #121212;
   --gray900: #292929;
@@ -80,31 +79,7 @@
 }
 
 :root {
-  --dashboard-font: IBM Plex Sans;
-  --font-lt: 300;
-  --font-rg: 400;
-  --font-sb: 600;
-}
-
-:root {
   --space-unit: 8px;
-}
-
-:root {
-  --shawod-color-light: rgba(66, 69, 72, 0.35);
-  --shawod-color-dark: rgba(66, 69, 72, 0.40);
-  --shadow-inset-2: inset 0 2px 4px 0 var(--shadow-color-light);
-  --shadow-inset-4: inset 0 4px 8px 0 var(--shadow-color-light);
-  --shadow-0: 0 0 0 0 var(--shadow-color-dark);
-  --shadow-1: 0 1px 2px 0 var(--shadow-color-dark);
-  --shadow-2: 0 2px 4px 0 var(--shadow-color-dark);
-  --shadow-3: 0 3px 6px 0 var(--shadow-color-dark);
-  --shadow-4: 0 4px 8px 0 var(--shadow-color-dark);
-  --shadow-6: 0 6px 12px 0 var(--shadow-color-dark);
-  --shadow-8: 0 8px 16px 0 var(--shadow-color-dark);
-  --shadow-12: 0 12px 24px 0 var(--shadow-color-light);
-  --shadow-16: 0 16px 32px 0 var(--shadow-color-light);
-  --shadow-24: 0 24px 48px 0 var(--shadow-color-light);
 }
 
 :root {
@@ -443,9 +418,9 @@
 :root {
   --border-base: 2px;
   --border-size-small: 1px;
-  --radius-base: 4px;
-  --radius-min: 0;
-  --radius-max: 100%;
+  --border-radius-base: 4px;
+  --border-radius-min: 0;
+  --border-radius-max: 100%;
 }
 
 :root {
@@ -490,22 +465,22 @@
 }
 
 :root {
-  --basex1: 8px;
-  --basex2: 16px;
-  --basex3: 24px;
-  --basex4: 32px;
-  --basex5: 40px;
-  --basex6: 48px;
-  --basex7: 56px;
-  --basex8: 64px;
-  --half-x1: 4px;
-  --half-x3: 12px;
-  --half-x5: 20px;
-  --half-x7: 28px;
-  --half-x9: 36px;
-  --half-x11: 44px;
-  --half-x13: 52px;
-  --half-x14: 60px;
+  --basex1: var(--space-unit);
+  --basex2: calc(var(--space-unit) * 2);
+  --basex3: calc(var(--space-unit) * 3);
+  --basex4: calc(var(--space-unit) * 4);
+  --basex5: calc(var(--space-unit) * 5);
+  --basex6: calc(var(--space-unit) * 6);
+  --basex7: calc(var(--space-unit) * 7);
+  --basex8: calc(var(--space-unit) * 8);
+  --half-x1: calc(var(--space-unit) * .5);
+  --half-x3: calc(var(--space-unit) * 1.5);
+  --half-x5: calc(var(--space-unit) * 2.5);
+  --half-x7: calc(var(--space-unit) * 3.5);
+  --half-x9: calc(var(--space-unit) * 4.5);
+  --half-x11: calc(var(--space-unit) * 5.5);
+  --half-x13: calc(var(--space-unit) * 6.5);
+  --half-x14: calc(var(--space-unit) * 7.5);
 }
 
 /*# sourceMappingURL=tokens.css.map */
