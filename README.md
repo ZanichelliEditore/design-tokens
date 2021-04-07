@@ -29,6 +29,11 @@ yarn build
 
 ### Import in your project 
 ```html 
-<link rel="stylesheet" src="[***]/dist/themes/green.css" />
+<link rel="stylesheet" src="[***]/dist/themes/default.css" />
 <link rel="stylesheet" src="[***]/dist/tokens.css" />
+```
+
+or 
+```css
+@import "~@zanichelli/albe-design-tokens/dist/tokens.css";
 ```
