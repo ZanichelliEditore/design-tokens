@@ -9,10 +9,10 @@
   "scripts": {
     "release": "standard-version",
     "build:themes:default": "sass ./src/modules/themes/default.scss ./dist/themes/default.css",
-    "build:themes": "yarn build:themes:default",
+    "build:themes": "npm run build:themes:default",
     "build:tokens": "sass ./src/main.scss ./dist/tokens.css",
-    "build": "yarn build:tokens && yarn build:themes",
-    "prepublish": "yarn build"
+    "build": "npm run build:tokens && npm run build:themes",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "sass": "^1.32.8",
