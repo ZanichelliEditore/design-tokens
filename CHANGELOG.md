@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.0...v0.2.1) (2021-05-13)
+
+
+### Bug Fixes
+
+* --radius-base legacy token ([486c83f](https://github.com/ZanichelliEditore/design-tokens/commit/486c83f1578f327684caff2cb98db45d78c2137e))
+
 ## [0.2.0](https://github.com/ZanichelliEditore/design-tokens/compare/v0.1.62...v0.2.0) (2021-04-13)
 
 ### [0.1.62](https://github.com/ZanichelliEditore/design-tokens/compare/v0.1.11...v0.1.62) (2021-04-13)
