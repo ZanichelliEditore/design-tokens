@@ -51,7 +51,7 @@
   --color-hover-surface: var(--gray300);
   --color-hover-light: var(--blue400);
   --color-hover-danger: var(--red800);
-  
+
   --color-active-primary: var(--blue800);
   --color-active-secondary: var(--blue800);
   --color-active-tertiary: var(--blue800);
@@ -60,9 +60,9 @@
 
   --color-selected-surface: var(--gray300);
   --color-selected-light: var(--gray300);
-  
+
   --color-highlight: var(--blue100);
-  
+
   --color-ghost01: var(--gray300);
   --color-ghost02: var(--gray500);
 
@@ -71,4 +71,39 @@
   --color-disabled03: var(--gray300);
 
   --shadow-focus-primary: 0 0 2px 2px var(--color-highlight);
+
+  // new theme color tokens (ECOZ-1351)
+  --background: var(--black50)
+  --primary-01: var(--blue500);
+  --primary-02: var(--blue500);
+  --primary-03: var(--blue50);
+  --secondary-01: var(--red500);
+  --secondary-02: var(--red500);
+  --surface-01: var(--black200);
+  --surface-02: var(--color-white);
+  --surface-03: var(--black200);
+  --surface-04: var(--black600);
+  --surface-05: var(--black800);
+  --text-01: var(--black950);
+  --text-02: var(--black950);
+  --text-03: var(--black300);
+  --text-04: var(--color-white);
+  --text-05: var(--black-500);
+  --inverse-text: var(--color-white);
+  --link-01: var(--blue500);
+  --link-02: var(--blue100);
+  --inverse-link: var(--blue50)
+  --icon-01: var(--blue500);
+  --icon-02: var(--black950);
+  --icon-03: var(--color-white);
+  --hover-primary: var(--blue800);
+  --hover-primary-text: var(--color-black);
+  --hover-secondary: var(--blue800);
+  --hover-tertiary: var(--blue800);
+  --active-primary: var(--blue500);
+  --active-secondary: var(--blue800);
+  --active-tertiary: var(--blue400);
+  --disabled-01: var(--gray200);
+  --disabled-02: var(--gray700);
+  --disabled-03: var(--gray200);
 }
