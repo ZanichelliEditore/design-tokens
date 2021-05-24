@@ -9,7 +9,8 @@
   "scripts": {
     "release": "standard-version",
     "build:themes:default": "sass ./src/modules/themes/default.scss ./dist/themes/default.css",
-    "build:themes": "npm run build:themes:default",
+    "build:themes:primary-black": "sass ./src/modules/themes/primary-black.scss ./dist/themes/primary-black.css",
+    "build:themes": "npm run build:themes:default && npm run build:themes:primary-black",
     "build:tokens": "sass ./src/main.scss ./dist/tokens.css",
     "build": "npm run build:tokens && npm run build:themes",
     "prepublish": "npm run build"
