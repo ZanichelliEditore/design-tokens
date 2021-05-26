@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.1...v0.2.2) (2021-05-26)
+
+
+### Features
+
+* add some border tokens ([13d6cb1](https://github.com/ZanichelliEditore/design-tokens/commit/13d6cb126efb98fab65dde4b63f17a2127779718))
+
+
+### Bug Fixes
+
+* shadow variables typos ([6fa8165](https://github.com/ZanichelliEditore/design-tokens/commit/6fa8165e502f7e1f6f827c27e4ae3124eabbf001))
+
 ### [0.2.1](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.0...v0.2.1) (2021-05-13)
 
 
