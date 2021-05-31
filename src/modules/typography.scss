@@ -31,3 +31,181 @@
   // backward compatibility
   --dashboard-font: var(--font-family-sans);
 }
+
+// Typography classes
+.heading-1 {
+  font-size: var(--font-size-8);
+  font-weight: var(--font-rg);
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.heading-1-sb {
+  @extend .heading-1;
+  font-weight: var(--font-sb);
+}
+
+.heading-1-lt {
+  @extend .heading-1;
+  font-weight: var(--font-lt);
+}
+
+.heading-2 {
+  font-size: var(--font-size-7);
+  font-weight: var(--font-rg);
+  line-height: 1.28;
+  letter-spacing: 0;
+}
+
+.heading-2-sb {
+  @extend .heading-2;
+  font-weight: var(--font-sb);
+}
+
+.heading-2-lt {
+  @extend .heading-2;
+  font-weight: var(--font-lt);
+}
+
+.heading-3 {
+  font-size: var(--font-size-6);
+  font-weight: var(--font-rg);
+  line-height: 1.33;
+  letter-spacing: 0;
+}
+
+.heading-3-sb {
+  @extend .heading-3;
+  font-weight: var(--font-sb);
+}
+
+.heading-3-lt {
+  @extend .heading-3;
+  font-weight: var(--font-lt);
+}
+
+.heading-4 {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-rg);
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.heading-4-sb {
+  @extend .heading-4;
+  font-weight: var(--font-sb);
+}
+
+.heading-4-lt {
+  @extend .heading-4;
+  font-weight: var(--font-lt);
+}
+
+.body-1 {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-rg);
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.body-1-sb {
+  @extend .body-1;
+  font-weight: var(--font-sb);
+}
+
+.body-2 {
+  font-size: var(--font-size-4);
+  font-weight: var(--font-rg);
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.body-2-sb {
+  @extend .body-2;
+  font-weight: var(--font-sb);
+}
+
+.body-3 {
+  font-size: var(--font-size-3);
+  font-weight: var(--font-rg);
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.body-3-sb {
+  @extend .body-3;
+  font-weight: var(--font-sb);
+}
+
+.body-4 {
+  font-size: var(--font-size-2);
+  font-weight: var(--font-rg);
+  line-height: 1.4;
+  letter-spacing: 0.16px;
+}
+
+.body-4-sb {
+  @extend .body-4;
+  font-weight: var(--font-sb);
+}
+
+.body-5 {
+  font-size: var(--font-size-1);
+  font-weight: var(--font-rg);
+  line-height: 1.3;
+  letter-spacing: 0.32px;
+}
+
+.body-5-sb {
+  @extend .body-5;
+  font-weight: var(--font-sb);
+}
+
+.interactive-1 {
+  font-size: var(--font-size-3);
+  font-weight: var(--font-rg);
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.interactive-1-sb {
+  @extend .interactive-1;
+  font-weight: var(--font-sb);
+}
+
+.interactive-2 {
+  font-size: var(--font-size-2);
+  font-weight: var(--font-rg);
+  line-height: 1.4;
+  letter-spacing: 0.16px;
+}
+
+.interactive-2-sb {
+  @extend .interactive-2;
+  font-weight: var(--font-sb);
+}
+
+.interactive-3 {
+  font-size: var(--font-size-1);
+  font-weight: var(--font-rg);
+  line-height: 1.3;
+  letter-spacing: 0.32px;
+}
+
+.interactive-3-sb {
+  @extend .interactive-3;
+  font-weight: var(--font-sb);
+}
+
+.helper {
+  font-size: var(--font-size-1);
+  font-weight: var(--font-rg);
+  font-style: italic;
+  line-height: 1.3;
+  letter-spacing: 0.32px;
+}
+
+.helper-sb {
+  @extend .helper;
+  font-weight: var(--font-sb);
+}
