@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.4...v0.2.5) (2021-06-10)
+
+
+### Features
+
+* add heading 1-2 media query ([7f50e05](https://github.com/ZanichelliEditore/design-tokens/commit/7f50e05669a26ccc9efb955b4eb4aca6aff76feb))
+* font size tokens ([84e2e86](https://github.com/ZanichelliEditore/design-tokens/commit/84e2e8682a8f34140f3cc13e3ef3a7c89d6eeb49))
+* typography classes ([5615a58](https://github.com/ZanichelliEditore/design-tokens/commit/5615a58c0615d3dca68ad0170f43705b4d1e875f))
+
 ### [0.2.4](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.3...v0.2.4) (2021-06-10)
 
 
