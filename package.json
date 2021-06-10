@@ -4,7 +4,8 @@
   "license": "MIT",
   "files": [
     "dist/tokens.css",
-    "dist/themes/default.css"
+    "dist/themes/default.css",
+    "dist/themes/primary-black.css"
   ],
   "scripts": {
     "release": "standard-version",
