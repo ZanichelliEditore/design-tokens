@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.3...v0.2.4) (2021-06-10)
+
+
+### Bug Fixes
+
+* missing builded file ([147d786](https://github.com/ZanichelliEditore/design-tokens/commit/147d786eb6ce8c5e80c06337985d2b4dcb28a18d))
+
 ### [0.2.3](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.2...v0.2.3) (2021-06-04)
 
 ### [0.2.2](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.1...v0.2.2) (2021-05-26)
