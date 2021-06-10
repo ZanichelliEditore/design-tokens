@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.6](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.5...v0.2.6) (2021-06-10)
+
+
+### Bug Fixes
+
+* black theme tokens ([ba5aac1](https://github.com/ZanichelliEditore/design-tokens/commit/ba5aac1f098a60e08518fb777fe64a80bb573ecc))
+
 ### [0.2.5](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.4...v0.2.5) (2021-06-10)
 
 
