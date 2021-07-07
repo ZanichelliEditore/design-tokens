@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.7](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.6...v0.2.7) (2021-07-07)
+
+
+### Features
+
+* add pressed color token ([097d69d](https://github.com/ZanichelliEditore/design-tokens/commit/097d69d0cc2020b42a946c1f3f20b9639e05e864))
+* add statuses additional tokens; fix 50 colors; fix other tokens ([5151495](https://github.com/ZanichelliEditore/design-tokens/commit/5151495239f4cee9d010070407e15e88e47dc857))
+
+
+### Bug Fixes
+
+* default theme text color tokens ([b07591e](https://github.com/ZanichelliEditore/design-tokens/commit/b07591ea0ef469f54635b455b055d7f69ffa1d26))
+* font size 1 line height ([2954f76](https://github.com/ZanichelliEditore/design-tokens/commit/2954f7612eeb5d396b66661f1ee369891f512de5))
+* icon02 color ([5a0de96](https://github.com/ZanichelliEditore/design-tokens/commit/5a0de96c33e20a451d7d47f66946aff50a498a1a))
+* surface colors; black theme tokens ([1ad1864](https://github.com/ZanichelliEditore/design-tokens/commit/1ad186413bcf8949b7d46cb6473c79c24d1ac83d))
+
 ### [0.2.6](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.5...v0.2.6) (2021-06-10)
 
 
