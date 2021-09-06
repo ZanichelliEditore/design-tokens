@@ -19,6 +19,12 @@ This repo is an auxiliary project to `zanichelli/design-system` [repo](https://g
 - `src/modules/palette`:
   folder that contains every availabele color in the palette
 
+## Naming Convention for Themes:
+
+n case of implementation of a new theme, the following convention must be followed: 
+- theme file name:  `{primary-color}-{secondary-color}.scss`
+- theme class name: `.theme-{primary-color}-{secondary-color}`
+
 ## Usage
 
 #### Build Github Markdown Preview
