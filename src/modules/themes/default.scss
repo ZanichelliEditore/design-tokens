@@ -40,11 +40,6 @@
   --color-text05: var(--gray600);
   --color-text-inverse: var(--color-white);
 
-  --color-link01: var(--blue500);
-  --color-link02: var(--blue100);
-  --color-link-inverse: var(--blue50);
-  --color-link-visited: var(--blue800);
-
   --color-icon01: var(--blue500);
   --color-icon02: var(--gray800);
   --color-icon03: var(--color-white);
@@ -79,7 +74,19 @@
 
   --color-disabled01: var(--gray200);
   --color-disabled02: var(--gray700);
-  --color-disabled03: var(--gray300);
+  --color-disabled03: var(--gray500);
 
   --shadow-focus-primary: 0 0 2px 2px var(--color-highlight);
+
+  --color-link-primary: var(--blue500);
+  --color-hover-link: var(--blue800);
+  --color-active-link: var(--blue800);
+  --color-pressed-link: var(--blue400);
+  --color-visited-link: var(--blue800);
+
+  --color-inverse-link: var(--white);
+  --color-inverse-hover-link: var(--white);
+  --color-inverse-active-link: var(--white);
+  --color-inverse-pressed-link: var(--white);
+  --color-inverse-visited-link: var(--gray-300);
 }
