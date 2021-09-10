@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.9...v0.2.10) (2021-09-10)
+
+
+### Bug Fixes
+
+* fix bug color gray300 ([de749b9](https://github.com/ZanichelliEditore/design-tokens/commit/de749b9db01c8b09e7542db3f65fb80bdaf61052))
+
 ### [0.2.9](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.8...v0.2.9) (2021-09-10)
 
 
