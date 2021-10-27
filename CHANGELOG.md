@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.13](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.12...v0.2.13) (2021-10-27)
+
+
+### Bug Fixes
+
+* changed color-hover-surface, not used by any component so far but was wrong ([d0e2824](https://github.com/ZanichelliEditore/design-tokens/commit/d0e2824132eb12e99b8796dccd5e83b84fb234e7))
+
 ### [0.2.12](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.11...v0.2.12) (2021-10-27)
 
 
