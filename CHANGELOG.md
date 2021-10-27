@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.12](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.11...v0.2.12) (2021-10-27)
+
+
+### Bug Fixes
+
+* add hover style ([615e560](https://github.com/ZanichelliEditore/design-tokens/commit/615e560ff0df58e9717f75693df201d31b1ffa20))
+
 ### [0.2.11](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.10...v0.2.11) (2021-09-21)
 
 ### [0.2.10](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.9...v0.2.10) (2021-09-10)
