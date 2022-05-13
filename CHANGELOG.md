@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.14](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.13...v0.2.14) (2022-05-13)
+
+
+### Features
+
+* add adaptive grid margin and gutter tokens ([e4fee50](https://github.com/ZanichelliEditore/design-tokens/commit/e4fee50de1729e49f14130b5291f06b58239504b))
+
 ### [0.2.13](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.12...v0.2.13) (2021-10-27)
 
 
