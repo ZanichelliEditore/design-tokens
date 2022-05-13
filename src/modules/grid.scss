@@ -18,4 +18,30 @@
   --grid-wide-column: 12;
   --grid-wide-margin: 32px;
   --grid-wide-gutter: 32px;
+
+  // These variables automatically adapt to the viewport size,
+  // so that apps don't have to worry about updating the value manually.
+  --grid-margin: var(--grid-mobile-margin);
+  --grid-gutter: var(--grid-mobile-gutter);
+}
+
+@media (min-width: 768px) and (max-width: 1151px) {
+  :root {
+    --grid-margin: var(--grid-tablet-margin);
+    --grid-gutter: var(--grid-tablet-gutter);
+  }
+}
+
+@media (min-width: 1152px) and (max-width: 1365px) {
+  :root {
+    --grid-margin: var(--grid-desktop-margin);
+    --grid-gutter: var(--grid-desktop-gutter);
+  }
+}
+
+@media (min-width: 1366px) {
+  :root {
+    --grid-margin: var(--grid-wide-margin);
+    --grid-gutter: var(--grid-wide-gutter);
+  }
 }
