@@ -23,12 +23,14 @@
   // so that apps don't have to worry about updating the value manually.
   --grid-margin: var(--grid-mobile-margin);
   --grid-gutter: var(--grid-mobile-gutter);
+  --grid-columns: var(--grid-mobile-column);
 }
 
 @media (min-width: 768px) and (max-width: 1151px) {
   :root {
     --grid-margin: var(--grid-tablet-margin);
     --grid-gutter: var(--grid-tablet-gutter);
+    --grid-columns: var(--grid-tablet-column);
   }
 }
 
@@ -36,6 +38,7 @@
   :root {
     --grid-margin: var(--grid-desktop-margin);
     --grid-gutter: var(--grid-desktop-gutter);
+    --grid-columns: var(--grid-desktop-column);
   }
 }
 
@@ -43,5 +46,6 @@
   :root {
     --grid-margin: var(--grid-wide-margin);
     --grid-gutter: var(--grid-wide-gutter);
+    --grid-columns: var(--grid-wide-column);
   }
 }
