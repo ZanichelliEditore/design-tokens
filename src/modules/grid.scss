@@ -23,8 +23,10 @@
 
     --col-size: calc((min(100vw, var(--page-max-width)) - (var(--grid-margin) * 2) - (var(--grid-gutter) * (var(--grid-columns) - 1))) / var(--grid-columns));
 
-    // These variables automatically adapt to the viewport size,
-    // so that apps don't have to worry about updating the value manually.
+	/*
+    	These variables automatically adapt to the viewport size,
+    	so that apps don't have to worry about updating the value manually.
+	*/
     --grid-margin: var(--grid-mobile-margin);
     --grid-gutter: var(--grid-mobile-gutter);
     --grid-columns: var(--grid-mobile-column);
@@ -162,7 +164,7 @@
 }
 
 /*
-  NB: this means "end this column where column 5 start",
+  This means "end this column where column 5 start",
   which is the same as saying "end this column where column 4 end"
 */
 .col-end-5,
