@@ -1239,30 +1239,6 @@
 		grid-template-rows: repeat(6, var(--col-size));
 	}
 
-	.wide-grid-rows-1 {
-		grid-template-rows: var(--col-size);
-	}
-
-	.wide-grid-rows-2 {
-		grid-template-rows: repeat(2, var(--col-size));
-	}
-
-	.wide-grid-rows-3 {
-		grid-template-rows: repeat(3, var(--col-size));
-	}
-
-	.wide-grid-rows-4 {
-		grid-template-rows: repeat(4, var(--col-size));
-	}
-
-	.wide-grid-rows-5 {
-		grid-template-rows: repeat(5, var(--col-size));
-	}
-
-	.wide-grid-rows-6 {
-		grid-template-rows: repeat(6, var(--col-size));
-	}
-
 	.wide-row-1 {
 		grid-row: span 1;
 	}
