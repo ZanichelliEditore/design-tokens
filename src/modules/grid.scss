@@ -21,8 +21,6 @@
 
     --page-max-width: 1366px;
 
-    --col-size: calc((min(100vw, var(--page-max-width)) - (var(--grid-margin) * 2) - (var(--grid-gutter) * (var(--grid-columns) - 1))) / var(--grid-columns));
-
 	/*
     	These variables automatically adapt to the viewport size,
     	so that apps don't have to worry about updating the value manually.
@@ -203,62 +201,6 @@
 	grid-column-end: -4;
 }
 
-/*
-	Classes used to define rows on the grid. To be used along the `.grid` class.
-	Rows height is defined by `--col-size`
-*/
-.grid-rows-1 {
-	grid-template-rows: var(--col-size);
-}
-
-.grid-rows-2 {
-	grid-template-rows: repeat(2, var(--col-size));
-}
-
-.grid-rows-3 {
-	grid-template-rows: repeat(3, var(--col-size));
-}
-
-.grid-rows-4 {
-	grid-template-rows: repeat(4, var(--col-size));
-}
-
-.grid-rows-5 {
-	grid-template-rows: repeat(5, var(--col-size));
-}
-
-.grid-rows-6 {
-	grid-template-rows: repeat(6, var(--col-size));
-}
-
-.row-full {
-	grid-row: 1 / -1;
-}
-
-.row-1 {
-	grid-row: span 1;
-}
-
-.row-2 {
-	grid-row: span 2;
-}
-
-.row-3 {
-	grid-row: span 3;
-}
-
-.row-4 {
-	grid-row: span 4;
-}
-
-.row-5 {
-	grid-row: span 5;
-}
-
-.row-6 {
-	grid-row: span 6;
-}
-
 @media (max-width: 767px) {
 	.mobile-col-full {
 		grid-column: 1 / -1;
@@ -278,54 +220,6 @@
 
 	.mobile-col-4 {
 		grid-column: span 4;
-	}
-
-	.mobile-grid-rows-1 {
-		grid-template-rows: var(--col-size);
-	}
-
-	.mobile-grid-rows-2 {
-		grid-template-rows: repeat(2, var(--col-size));
-	}
-
-	.mobile-grid-rows-3 {
-		grid-template-rows: repeat(3, var(--col-size));
-	}
-
-	.mobile-grid-rows-4 {
-		grid-template-rows: repeat(4, var(--col-size));
-	}
-
-	.mobile-grid-rows-5 {
-		grid-template-rows: repeat(5, var(--col-size));
-	}
-
-	.mobile-grid-rows-6 {
-		grid-template-rows: repeat(6, var(--col-size));
-	}
-
-	.mobile-row-1 {
-		grid-row: span 1;
-	}
-
-	.mobile-row-2 {
-		grid-row: span 2;
-	}
-
-	.mobile-row-3 {
-		grid-row: span 3;
-	}
-
-	.mobile-row-4 {
-		grid-row: span 4;
-	}
-
-	.mobile-row-5 {
-		grid-row: span 5;
-	}
-
-	.mobile-row-6 {
-		grid-row: span 6;
 	}
 }
 
@@ -585,54 +479,6 @@
 
 	.-tablet-col-end-8 {
 		grid-column-end: -8;
-	}
-
-	.tablet-grid-rows-1 {
-		grid-template-rows: var(--col-size);
-	}
-
-	.tablet-grid-rows-2 {
-		grid-template-rows: repeat(2, var(--col-size));
-	}
-
-	.tablet-grid-rows-3 {
-		grid-template-rows: repeat(3, var(--col-size));
-	}
-
-	.tablet-grid-rows-4 {
-		grid-template-rows: repeat(4, var(--col-size));
-	}
-
-	.tablet-grid-rows-5 {
-		grid-template-rows: repeat(5, var(--col-size));
-	}
-
-	.tablet-grid-rows-6 {
-		grid-template-rows: repeat(6, var(--col-size));
-	}
-
-	.tablet-row-1 {
-		grid-row: span 1;
-	}
-
-	.tablet-row-2 {
-		grid-row: span 2;
-	}
-
-	.tablet-row-3 {
-		grid-row: span 3;
-	}
-
-	.tablet-row-4 {
-		grid-row: span 4;
-	}
-
-	.tablet-row-5 {
-		grid-row: span 5;
-	}
-
-	.tablet-row-6 {
-		grid-row: span 6;
 	}
 }
 
@@ -953,30 +799,6 @@
 	.-desktop-col-end-12 {
 		grid-column-end: -12;
 	}
-
-	.desktop-row-1 {
-		grid-row: span 1;
-	}
-
-	.desktop-row-2 {
-		grid-row: span 2;
-	}
-
-	.desktop-row-3 {
-		grid-row: span 3;
-	}
-
-	.desktop-row-4 {
-		grid-row: span 4;
-	}
-
-	.desktop-row-5 {
-		grid-row: span 5;
-	}
-
-	.desktop-row-6 {
-		grid-row: span 6;
-	}
 }
 
 @media (min-width: 1366px) {
@@ -1213,53 +1035,5 @@
 
 	.-wide-col-end-12 {
 		grid-column-end: -12;
-	}
-
-	.wide-grid-rows-1 {
-		grid-template-rows: var(--col-size);
-	}
-
-	.wide-grid-rows-2 {
-		grid-template-rows: repeat(2, var(--col-size));
-	}
-
-	.wide-grid-rows-3 {
-		grid-template-rows: repeat(3, var(--col-size));
-	}
-
-	.wide-grid-rows-4 {
-		grid-template-rows: repeat(4, var(--col-size));
-	}
-
-	.wide-grid-rows-5 {
-		grid-template-rows: repeat(5, var(--col-size));
-	}
-
-	.wide-grid-rows-6 {
-		grid-template-rows: repeat(6, var(--col-size));
-	}
-
-	.wide-row-1 {
-		grid-row: span 1;
-	}
-
-	.wide-row-2 {
-		grid-row: span 2;
-	}
-
-	.wide-row-3 {
-		grid-row: span 3;
-	}
-
-	.wide-row-4 {
-		grid-row: span 4;
-	}
-
-	.wide-row-5 {
-		grid-row: span 5;
-	}
-
-	.wide-row-6 {
-		grid-row: span 6;
 	}
 }
