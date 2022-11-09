@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.16](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.15...v0.2.16) (2022-11-09)
+
+
+### Features
+
+* introduce grid, fixed shadows import ([b377b67](https://github.com/ZanichelliEditore/design-tokens/commit/b377b67bbafa1aee91629613d229c1eb0ef43b2e))
+
 ### [0.2.15](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.14...v0.2.15) (2022-08-25)
 
 ### [0.2.14](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.13...v0.2.14) (2022-05-13)
