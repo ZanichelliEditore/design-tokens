@@ -14,15 +14,15 @@ This repo is an auxiliary project to `zanichelli/design-system` [repo](https://g
   folder that contains every needed module
 
 - `src/modules/theme`:
-  folder that contains theming config files
+  folder that contains themes files
 
 - `src/modules/palette`:
-  folder that contains every availabele color in the palette
+  folder that contains every available color in the palette
 
 ## Naming Convention for Themes:
 
-In case of implementation of a new theme, the following convention must be followed: 
-- theme file name:  `{primary-color}-{secondary-color}.scss`
+In case of implementation of a new theme, the following convention must be followed:
+- theme file name: `{primary-color}-{secondary-color}.scss`
 - theme class name: `.theme-{primary-color}-{secondary-color}`
 
 ## Usage
