@@ -8,17 +8,17 @@
   "scripts": {
     "release": "standard-version",
     "build:themes": "sass ./src/modules/themes:./dist/themes",
-    "build:tokens": "sass ./src/main.scss ./dist/tokens.css",
+    "build:tokens": "sass ./src/main.css ./dist/tokens.css",
     "build": "rimraf dist && yarn build:tokens && yarn build:themes",
     "prepublish": "yarn build"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "sass": "^1.32.8",
+    "sass": "^1.56.1",
     "standard-version": "^9.1.1"
   },
   "description": "![Zanichelli logo](https://www.zanichelli.it/static/zanichelli/templates/zanichelli/_template_style/images/logo-print.png)",
-  "browser": "dist/tokens.css",
+  "main": "dist/tokens.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZanichelliEditore/design-tokens.git"

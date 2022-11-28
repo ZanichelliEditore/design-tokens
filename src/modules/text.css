@@ -1,6 +1,6 @@
-// Backward compatibility classes
-// This is the old `global-text.css` file from `design-system` repo.
-// New tokens and classes are defined in `typography.scss` file.
+/* Backward compatibility classes.
+This is the old `global-text.css` file from `design-system` repo.
+New tokens and classes are defined in `typography.scss` file. */
 
 .t-weight-lt {
   font-weight: var(--font-lt);
