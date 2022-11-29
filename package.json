@@ -8,9 +8,8 @@
   "scripts": {
     "release": "standard-version",
     "build:themes": "sass ./src/modules/themes:./dist/themes",
-    "build:tokens": "sass ./src/main.css ./dist/tokens.css",
-    "build": "rimraf dist && yarn build:tokens && yarn build:themes",
-    "prepublish": "yarn build"
+    "build:tokens": "sass ./src/main.scss ./dist/tokens.css",
+    "build": "rimraf dist && yarn build:tokens && yarn build:themes"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
@@ -26,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/ZanichelliEditore/design-tokens/issues"
   },
-  "homepage": "https://github.com/ZanichelliEditore/design-tokens#readme"
+  "homepage": "https://github.com/ZanichelliEditore/design-tokens#readme",
+  "standard-version": {
+    "scripts": {
+      "prerelease": "yarn build"
+    }
+  }
 }
