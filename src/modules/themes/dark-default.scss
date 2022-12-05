@@ -3,17 +3,17 @@
 
   --color-primary01: var(--color-white);
   --color-primary02: var(--gray800);
-  --color-hover-primary: var(--gray300);
-  --color-pressed-primary: var(--gray300);
+  --color-hover-primary: var(--color-primary01);
+  --color-pressed-primary: var(--color-primary01);
 
   --color-text02: var(--color-white);
   --color-text-inverse: var(--gray800);
 
   --color-link-primary: var(--color-white);
-  --color-hover-link: var(--gray300);
-  --color-active-link: var(--color-white);
-  --color-pressed-link: var(--color-white);
-  --color-visited-link: var(--gray300);
+  --color-hover-link: var(--color-link-primary);
+  --color-active-link: var(--color-link-primary);
+  --color-pressed-link: var(--color-link-primary);
+  --color-visited-link: var(--color-link-primary);
 
   --color-error02: #ffc1bd;
   --color-text-error: #ffc1bd;
