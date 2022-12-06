@@ -1,38 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 
 :root {
-  // font-family
+  /* font-family */
   --font-family-sans: 'IBM Plex Sans', sans-serif;
 
-  // font-weight
+  /* font-weight */
   --font-lt: 300;
   --font-rg: 400;
   --font-sb: 600;
 
-  // font-size type scale
-  --font-size-1: 0.75rem; // 12px
-  --font-size-2: 0.875rem; // 14px
-  --font-size-3: 1rem; // assuming 16px
-  --font-size-4: 1.125rem; // 18px
-  --font-size-5: 1.25rem; // 20px
-  --font-size-6: 1.5rem; // 24px
-  --font-size-7: 1.75rem; // 28px
-  --font-size-8: 2rem; // 32px
-  --font-size-9: 2.25rem; // 36px
-  --font-size-10: 2.625rem; // 42px
-  --font-size-11: 3rem; // 48px
-  --font-size-12: 3.375rem; // 54px
-  --font-size-13: 3.75rem; // 60px
-  --font-size-14: 4.25rem; // 68px
-  --font-size-15: 4.75rem; // 76px
-  --font-size-16: 5.25rem; // 84px
-  --font-size-17: 5.75rem; // 92px
+  /* font-size type scale */
+  --font-size-1: 0.75rem; /* 12px */
+  --font-size-2: 0.875rem; /* 14px */
+  --font-size-3: 1rem; /* assuming 16px */
+  --font-size-4: 1.125rem; /* 18px */
+  --font-size-5: 1.25rem; /* 20px */
+  --font-size-6: 1.5rem; /* 24px */
+  --font-size-7: 1.75rem; /* 28px */
+  --font-size-8: 2rem; /* 32px */
+  --font-size-9: 2.25rem; /* 36px */
+  --font-size-10: 2.625rem; /* 42px */
+  --font-size-11: 3rem; /* 48px */
+  --font-size-12: 3.375rem; /* 54px */
+  --font-size-13: 3.75rem; /* 60px */
+  --font-size-14: 4.25rem; /* 68px */
+  --font-size-15: 4.75rem; /* 76px */
+  --font-size-16: 5.25rem; /* 84px */
+  --font-size-17: 5.75rem; /* 92px */
 
-  // backward compatibility
+  /* backward compatibility */
   --dashboard-font: var(--font-family-sans);
 }
 
-// Typography classes
+/* Typography classes */
 .heading-1,
 .heading-1-sb,
 .heading-1-lt {
@@ -158,7 +158,7 @@
   letter-spacing: 0.32px;
 }
 
-// font-weight variants
+/* font-weight variants */
 .heading-1-lt,
 .heading-2-lt,
 .heading-3-lt,

@@ -3,33 +3,32 @@
   "version": "0.2.16",
   "license": "MIT",
   "files": [
-    "dist/tokens.css",
-    "dist/themes/default.css",
-    "dist/themes/black-yellow.css"
+    "dist/"
   ],
   "scripts": {
     "release": "standard-version",
-    "build:themes:default": "sass ./src/modules/themes/default.scss ./dist/themes/default.css",
-    "build:themes:black-yellow": "sass ./src/modules/themes/black-yellow.scss ./dist/themes/black-yellow.css",
-    "build:themes": "npm run build:themes:default && npm run build:themes:black-yellow",
+    "build:themes": "sass ./src/modules/themes:./dist/themes",
     "build:tokens": "sass ./src/main.scss ./dist/tokens.css",
-    "build": "npm run build:tokens && npm run build:themes",
-    "prepublish": "npm run build"
+    "build": "rimraf dist && yarn build:tokens && yarn build:themes"
   },
   "devDependencies": {
-    "sass": "^1.32.8",
+    "rimraf": "^3.0.2",
+    "sass": "^1.56.1",
     "standard-version": "^9.1.1"
   },
   "description": "![Zanichelli logo](https://www.zanichelli.it/static/zanichelli/templates/zanichelli/_template_style/images/logo-print.png)",
   "main": "dist/tokens.css",
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZanichelliEditore/design-tokens.git"
   },
-  "author": "wanbinkimoon",
   "bugs": {
     "url": "https://github.com/ZanichelliEditore/design-tokens/issues"
   },
-  "homepage": "https://github.com/ZanichelliEditore/design-tokens#readme"
+  "homepage": "https://github.com/ZanichelliEditore/design-tokens#readme",
+  "standard-version": {
+    "scripts": {
+      "prerelease": "yarn build"
+    }
+  }
 }
