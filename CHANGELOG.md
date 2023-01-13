@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.18](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.16...v0.2.18) (2023-01-13)
+
+
+### Features
+
+* add some value to dark theme ([4733270](https://github.com/ZanichelliEditore/design-tokens/commit/473327093b55d9b66db8762b9f6dc14268efb6af))
+
+
+### Bug Fixes
+
+* fix the value of primary02 token in black-yellow theme ([38f239f](https://github.com/ZanichelliEditore/design-tokens/commit/38f239fd6f873b08bfda2a1aa0c8a638b84c237b))
+* statuses colors ([c5f7648](https://github.com/ZanichelliEditore/design-tokens/commit/c5f76488bbc9f6157952ef5f29262e2a310ba22f))
+
 ### [0.2.17](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.16...v0.2.17) (2022-12-06)
 
 
