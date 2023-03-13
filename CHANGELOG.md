@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.19](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.18...v0.2.19) (2023-03-13)
+
+
+### Bug Fixes
+
+* rename css .grid class in .z-grid ([9d890b5](https://github.com/ZanichelliEditore/design-tokens/commit/9d890b5b325d1b09426196ff9bdfc2a4a26cec75))
+
 ### [0.2.18](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.16...v0.2.18) (2023-01-13)
 
 
