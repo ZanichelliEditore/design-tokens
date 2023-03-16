@@ -1,6 +1,10 @@
 /* Backward compatibility classes.
 This is the old `global-text.css` file from `design-system` repo.
-New tokens and classes are defined in `typography.css` file. */
+New tokens and classes are defined in `typography` file. */
+
+:root {
+  --dashboard-font: var(--font-family-sans);
+}
 
 .t-weight-lt {
   font-weight: var(--font-lt);
