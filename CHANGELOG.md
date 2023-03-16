@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.22](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.21...v0.2.22) (2023-03-16)
+
+
+### Features
+
+* add bold font; moved some legacy things inside legacy folder ([ae6cf47](https://github.com/ZanichelliEditore/design-tokens/commit/ae6cf4763b1466161f7efc7ff3cc4dbb7977eccb))
+
 ### [0.2.21](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.20...v0.2.21) (2023-03-13)
 
 ### [0.2.20](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.19...v0.2.20) (2023-03-13)
