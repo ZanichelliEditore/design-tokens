@@ -67,7 +67,7 @@
   --color-selected-surface: var(--gray300);
   --color-selected-light: var(--gray300);
 
-  --color-highlight: var(--blue100);
+  --color-highlight: var(--blue500);
 
   --color-ghost01: var(--gray300);
   --color-ghost02: var(--gray500);
@@ -76,7 +76,8 @@
   --color-disabled02: var(--gray700);
   --color-disabled03: var(--gray500);
 
-  --shadow-focus-primary: 0 0 2px 2px var(--color-highlight);
+  --shadow-focus-primary: 0 0 0 1px var(--color-white),
+    0 0 4px 3px var(--color-highlight);
 
   --color-link-primary: var(--blue500);
   --color-hover-link: var(--blue800);
