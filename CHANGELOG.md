@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.24](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.23...v0.2.24) (2023-03-30)
+
+
+### Bug Fixes
+
+* color-highlight ([0d77157](https://github.com/ZanichelliEditore/design-tokens/commit/0d77157c5b07d2b37522942363ae9d5112e1d57a))
+
 ### [0.2.23](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.22...v0.2.23) (2023-03-24)
 
 ### [0.2.22](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.21...v0.2.22) (2023-03-16)
