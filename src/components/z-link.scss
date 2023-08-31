@@ -1,0 +1,152 @@
+:root {
+  --font-size-link: inherit;
+  --font-weight-link: inherit;
+}
+
+a.z-link {
+  display: inline-flex;
+  color: var(--color-link-primary);
+  fill: var(--color-link-primary);
+  cursor: pointer;
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-link);
+  font-weight: var(--font-weight-link);
+  line-height: inherit;
+  text-decoration: none;
+}
+
+/* LINK HOVER AND FOCUS Status */
+a:hover.z-link,
+a:focus.z-link {
+  color: var(--color-hover-link);
+  fill: var(--color-hover-link);
+}
+
+a:hover.z-link,
+a:focus.z-link {
+  text-decoration: underline;
+}
+
+/* LINK PRESSED Status */
+a:active.z-link {
+  color: var(--color-pressed-link);
+  fill: var(--color-pressed-link);
+  text-decoration: underline;
+}
+
+/* LINK VISITED Status */
+a:visited.z-link {
+  color: var(--color-visited-link);
+  fill: var(--color-visited-link);
+}
+
+/* LINK Disabled */
+a.z-link.z-link-disabled,
+a:focus.z-link.z-link-disabled,
+a:visited.z-link.z-link-disabled,
+a:hover.z-link.z-link-disabled,
+a:focus.z-link.z-link-black.z-link-disabled {
+  color: var(--color-disabled03);
+  fill: var(--color-disabled03);
+  cursor: default;
+  pointer-events: none;
+  text-decoration: none;
+  outline: none;
+}
+
+/* Link Underline */
+a.z-link-underline,
+a.z-link-underline.z-link-disabled,
+a:focus.z-link.z-link-disabled.z-link-underline,
+a.z-link.z-link-disabled.z-link-underline.z-link-inverse {
+  text-decoration: underline;
+}
+
+/* LINK Active */
+a.z-link-active {
+  color: var(--color-active-link);
+  fill: var(--color-active-link);
+}
+
+a.z-link.z-link-inverse.z-link-active {
+  color: var(--color-inverse-active-link);
+  fill: var(--color-inverse-active-link);
+}
+
+a.z-link.z-link-black.z-link-active {
+  color: var(--color-black);
+  fill: var(--color-black);
+}
+
+/* TEXT COLOR VARIANT INVERSE */
+a.z-link-inverse {
+  color: var(--color-inverse-link);
+  fill: var(--color-inverse-link);
+}
+
+a:hover.z-link.z-link-inverse {
+  color: var(--color-inverse-hover-link);
+  fill: var(--color-inverse-hover-link);
+}
+
+a:active.z-link.z-link-inverse,
+a:focus.z-link.z-link-inverse {
+  color: var(--color-inverse-pressed-link);
+  fill: var(--color-inverse-pressed-link);
+}
+
+a:visited.z-link.z-link-inverse {
+  color: var(--color-inverse-visited-link);
+  fill: var(--color-inverse-visited-link);
+}
+
+/* TEXT COLOR VARIANT BLACK */
+a.z-link-black,
+a:focus.z-link.z-link-black,
+a:visited.z-link.z-link-black,
+a:hover:visited.z-link.z-link-black {
+  color: var(--gray800);
+  fill: var(--gray800);
+}
+
+a:hover.z-link.z-link-black,
+a:focus.z-link.z-link-active.z-link-black {
+  color: var(--color-black);
+  fill: var(--color-black);
+}
+
+a:active.z-link.z-link-black,
+a:active.z-link.z-link-active.z-link-black {
+  color: var(--gray700);
+  fill: var(--gray700);
+}
+
+a.z-link.z-link-disabled.z-link-active.z-link-black {
+  color: var(--color-disabled03);
+  fill: var(--color-disabled03);
+}
+
+/* TEXT COLOR VARIANT WHITE */
+a.z-link-white {
+  color: var(--bg-white);
+  fill: var(--bg-white);
+}
+
+a:hover.z-link.z-link-white,
+a:focus.z-link.z-link-white,
+a:visited.z-link.z-link-white,
+a:hover:visited.z-link.z-link-white {
+  color: var(--bg-white);
+  fill: var(--bg-white);
+}
+
+a.z-link.z-link-white.z-link-disabled {
+  color: var(--color-disabled03);
+  fill: var(--color-disabled03);
+}
+
+/* LINK WHIT ICON ACCESSORY ClASS */
+a.z-link-icon {
+  align-items: center;
+  justify-content: center;
+}
