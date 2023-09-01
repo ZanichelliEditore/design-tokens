@@ -3,6 +3,7 @@
 # Zanichelli Design Tokens
 
 ## Intro
+
 This repo is an auxiliary project to `zanichelli/design-system` [repo](https://github.com/ZanichelliEditore/design-system); it contains `.scss` files to generate css design tokens.
 
 ## Structure
@@ -19,9 +20,13 @@ This repo is an auxiliary project to `zanichelli/design-system` [repo](https://g
 - `src/modules/palette`:
   folder that contains every available color in the palette
 
+- `src/components`:
+  the folder contains classes for stylizing components
+
 ## Naming Convention for Themes:
 
 In case of implementation of a new theme, the following convention must be followed:
+
 - theme file name: `{primary-color}-{secondary-color}.scss`
 - theme class name: `.theme-{primary-color}-{secondary-color}`
 
@@ -34,12 +39,14 @@ yarn build
 ```
 
 ### Import in your project
+
 ```html
 <link rel="stylesheet" src="[***]/dist/themes/<theme-name>.css" />
 <link rel="stylesheet" src="[***]/dist/tokens.css" />
 ```
 
 or
+
 ```css
 @import "~@zanichelli/albe-design-tokens/dist/tokens.css";
 ```
