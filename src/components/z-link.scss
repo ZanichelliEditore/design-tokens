@@ -16,36 +16,36 @@ a.z-link {
 }
 
 /* LINK HOVER AND FOCUS Status */
-a:hover.z-link,
-a:focus.z-link {
+a.z-link:hover,
+a.z-link:focus {
   color: var(--color-hover-link);
   fill: var(--color-hover-link);
 }
 
-a:hover.z-link,
-a:focus.z-link {
+a.z-link:hover,
+a.z-link:focus,
+a.z-link:active {
   text-decoration: underline;
 }
 
 /* LINK PRESSED Status */
-a:active.z-link {
+a.z-link:active {
   color: var(--color-pressed-link);
   fill: var(--color-pressed-link);
-  text-decoration: underline;
 }
 
 /* LINK VISITED Status */
-a:visited.z-link {
+a.z-link:visited {
   color: var(--color-visited-link);
   fill: var(--color-visited-link);
 }
 
 /* LINK Disabled */
 a.z-link.z-link-disabled,
-a:focus.z-link.z-link-disabled,
-a:visited.z-link.z-link-disabled,
-a:hover.z-link.z-link-disabled,
-a:focus.z-link.z-link-black.z-link-disabled {
+a.z-link.z-link-disabled:focus,
+a.z-link.z-link-disabled:visited,
+a.z-link.z-link-disabled:hover,
+a.z-link.z-link-black.z-link-disabled:focus {
   color: var(--color-disabled03);
   fill: var(--color-disabled03);
   cursor: default;
@@ -57,7 +57,7 @@ a:focus.z-link.z-link-black.z-link-disabled {
 /* Link Underline */
 a.z-link-underline,
 a.z-link-underline.z-link-disabled,
-a:focus.z-link.z-link-disabled.z-link-underline,
+a.z-link.z-link-disabled.z-link-underline:focus,
 a.z-link.z-link-disabled.z-link-underline.z-link-inverse {
   text-decoration: underline;
 }
@@ -84,39 +84,39 @@ a.z-link-inverse {
   fill: var(--color-inverse-link);
 }
 
-a:hover.z-link.z-link-inverse {
+a.z-link.z-link-inverse:hover {
   color: var(--color-inverse-hover-link);
   fill: var(--color-inverse-hover-link);
 }
 
-a:active.z-link.z-link-inverse,
-a:focus.z-link.z-link-inverse {
+a.z-link.z-link-inverse:active,
+a.z-link.z-link-inverse:focus {
   color: var(--color-inverse-pressed-link);
   fill: var(--color-inverse-pressed-link);
 }
 
-a:visited.z-link.z-link-inverse {
+a.z-link.z-link-inverse:visited {
   color: var(--color-inverse-visited-link);
   fill: var(--color-inverse-visited-link);
 }
 
 /* TEXT COLOR VARIANT BLACK */
 a.z-link-black,
-a:focus.z-link.z-link-black,
-a:visited.z-link.z-link-black,
-a:hover:visited.z-link.z-link-black {
+a.z-link.z-link-black:focus,
+a.z-link.z-link-black:visited,
+a.z-link.z-link-black:hover:visited {
   color: var(--gray800);
   fill: var(--gray800);
 }
 
-a:hover.z-link.z-link-black,
-a:focus.z-link.z-link-active.z-link-black {
+a.z-link.z-link-black:hover,
+a.z-link.z-link-active.z-link-black:focus {
   color: var(--color-black);
   fill: var(--color-black);
 }
 
-a:active.z-link.z-link-black,
-a:active.z-link.z-link-active.z-link-black {
+a.z-link.z-link-black:active,
+a.z-link.z-link-active.z-link-black:active {
   color: var(--gray700);
   fill: var(--gray700);
 }
@@ -132,10 +132,10 @@ a.z-link-white {
   fill: var(--bg-white);
 }
 
-a:hover.z-link.z-link-white,
-a:focus.z-link.z-link-white,
-a:visited.z-link.z-link-white,
-a:hover:visited.z-link.z-link-white {
+a.z-link.z-link-white:hover,
+a.z-link.z-link-white:focus,
+a.z-link.z-link-white:visited,
+a.z-link.z-link-white:hover:visited {
   color: var(--bg-white);
   fill: var(--bg-white);
 }
@@ -148,5 +148,4 @@ a.z-link.z-link-white.z-link-disabled {
 /* LINK WHIT ICON ACCESSORY ClASS */
 a.z-link-icon {
   align-items: center;
-  justify-content: center;
 }
