@@ -14,6 +14,12 @@ a.z-link {
   line-height: inherit;
   text-decoration: none;
 
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: underline;
+  }
+
   /* LINK HOVER AND FOCUS Status */
   &:hover,
   &:focus {
@@ -21,14 +27,9 @@ a.z-link {
     fill: var(--color-hover-link);
   }
 
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration: underline;
-  }
-
   /* LINK PRESSED Status */
-  &:active {
+  &:active,
+  &.z-link-active:active {
     color: var(--color-pressed-link);
     fill: var(--color-pressed-link);
   }
@@ -41,10 +42,7 @@ a.z-link {
 
   /* LINK Disabled */
   &.z-link-disabled,
-  &.z-link-disabled:focus,
-  &.z-link-disabled:visited,
-  &.z-link-disabled:hover,
-  &.z-link-black.z-link-disabled:focus {
+  &.z-link-disabled.z-link-active {
     color: var(--color-disabled03);
     fill: var(--color-disabled03);
     cursor: default;
@@ -54,10 +52,7 @@ a.z-link {
   }
 
   /* Link Underline */
-  &.z-link-underline,
-  &.z-link-underline.z-link-disabled,
-  &.z-link-disabled.z-link-underline:focus,
-  &.z-link-disabled.z-link-underline.z-link-inverse {
+  &.z-link-underline {
     text-decoration: underline;
   }
 
@@ -65,83 +60,77 @@ a.z-link {
   &.z-link-active {
     color: var(--color-active-link);
     fill: var(--color-active-link);
-  }
 
-  &.z-link-inverse.z-link-active {
-    color: var(--color-inverse-active-link);
-    fill: var(--color-inverse-active-link);
-  }
+    &.z-link-inverse {
+      color: var(--color-inverse-active-link);
+      fill: var(--color-inverse-active-link);
+    }
 
-  &.z-link-black.z-link-active {
-    color: var(--color-black);
-    fill: var(--color-black);
+    &.z-link-black {
+      color: var(--color-black);
+      fill: var(--color-black);
+    }
   }
 
   /* TEXT COLOR VARIANT INVERSE */
   &.z-link-inverse {
     color: var(--color-inverse-link);
     fill: var(--color-inverse-link);
-  }
 
-  &.z-link-inverse:hover {
-    color: var(--color-inverse-hover-link);
-    fill: var(--color-inverse-hover-link);
-  }
+    &:hover {
+      color: var(--color-inverse-hover-link);
+      fill: var(--color-inverse-hover-link);
+    }
 
-  &.z-link-inverse:active,
-  &.z-link-inverse:focus {
-    color: var(--color-inverse-pressed-link);
-    fill: var(--color-inverse-pressed-link);
-  }
+    &:active,
+    &:focus {
+      color: var(--color-inverse-pressed-link);
+      fill: var(--color-inverse-pressed-link);
+    }
 
-  &.z-link-inverse:visited {
-    color: var(--color-inverse-visited-link);
-    fill: var(--color-inverse-visited-link);
+    &:visited {
+      color: var(--color-inverse-visited-link);
+      fill: var(--color-inverse-visited-link);
+    }
   }
 
   /* TEXT COLOR VARIANT BLACK */
-  &.z-link-black,
-  &.z-link-black:focus,
-  &.z-link-black:visited,
-  &.z-link-black:hover:visited {
+  &.z-link-black {
     color: var(--gray800);
     fill: var(--gray800);
-  }
 
-  &.z-link-black:hover,
-  &.z-link-active.z-link-black:focus {
-    color: var(--color-black);
-    fill: var(--color-black);
-  }
+    &:hover:visited {
+      color: var(--gray800);
+      fill: var(--gray800);
+    }
 
-  &.z-link-black:active,
-  &.z-link-active.z-link-black:active {
-    color: var(--gray700);
-    fill: var(--gray700);
-  }
+    &:hover,
+    &.z-link-active:focus {
+      color: var(--color-black);
+      fill: var(--color-black);
+    }
 
-  &.z-link-disabled.z-link-active.z-link-black {
-    color: var(--color-disabled03);
-    fill: var(--color-disabled03);
+    &:active,
+    &.z-link-active:active {
+      color: var(--gray700);
+      fill: var(--gray700);
+    }
+
+    &.z-link-disabled.z-link-active {
+      color: var(--color-disabled03);
+      fill: var(--color-disabled03);
+    }
   }
 
   /* TEXT COLOR VARIANT WHITE */
   &.z-link-white {
     color: var(--bg-white);
     fill: var(--bg-white);
-  }
 
-  &.z-link-white:hover,
-  &.z-link-white:focus,
-  &.z-link-white:visited,
-  &.z-link-white:hover:visited {
-    color: var(--bg-white);
-    fill: var(--bg-white);
-  }
-
-  &.z-link-white.z-link-disabled {
-    color: var(--color-disabled03);
-    fill: var(--color-disabled03);
+    &.z-link-disabled {
+      color: var(--color-disabled03);
+      fill: var(--color-disabled03);
+    }
   }
 
   /* LINK WHIT ICON ACCESSORY ClASS */
