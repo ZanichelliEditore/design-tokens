@@ -13,139 +13,139 @@ a.z-link {
   font-weight: var(--font-weight-link);
   line-height: inherit;
   text-decoration: none;
-}
 
-/* LINK HOVER AND FOCUS Status */
-a.z-link:hover,
-a.z-link:focus {
-  color: var(--color-hover-link);
-  fill: var(--color-hover-link);
-}
+  /* LINK HOVER AND FOCUS Status */
+  &:hover,
+  &:focus {
+    color: var(--color-hover-link);
+    fill: var(--color-hover-link);
+  }
 
-a.z-link:hover,
-a.z-link:focus,
-a.z-link:active {
-  text-decoration: underline;
-}
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: underline;
+  }
 
-/* LINK PRESSED Status */
-a.z-link:active {
-  color: var(--color-pressed-link);
-  fill: var(--color-pressed-link);
-}
+  /* LINK PRESSED Status */
+  &:active {
+    color: var(--color-pressed-link);
+    fill: var(--color-pressed-link);
+  }
 
-/* LINK VISITED Status */
-a.z-link:visited {
-  color: var(--color-visited-link);
-  fill: var(--color-visited-link);
-}
+  /* LINK VISITED Status */
+  &:visited {
+    color: var(--color-visited-link);
+    fill: var(--color-visited-link);
+  }
 
-/* LINK Disabled */
-a.z-link.z-link-disabled,
-a.z-link.z-link-disabled:focus,
-a.z-link.z-link-disabled:visited,
-a.z-link.z-link-disabled:hover,
-a.z-link.z-link-black.z-link-disabled:focus {
-  color: var(--color-disabled03);
-  fill: var(--color-disabled03);
-  cursor: default;
-  pointer-events: none;
-  text-decoration: none;
-  outline: none;
-}
+  /* LINK Disabled */
+  &.z-link-disabled,
+  &.z-link-disabled:focus,
+  &.z-link-disabled:visited,
+  &.z-link-disabled:hover,
+  &.z-link-black.z-link-disabled:focus {
+    color: var(--color-disabled03);
+    fill: var(--color-disabled03);
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
+    outline: none;
+  }
 
-/* Link Underline */
-a.z-link-underline,
-a.z-link-underline.z-link-disabled,
-a.z-link.z-link-disabled.z-link-underline:focus,
-a.z-link.z-link-disabled.z-link-underline.z-link-inverse {
-  text-decoration: underline;
-}
+  /* Link Underline */
+  &.z-link-underline,
+  &.z-link-underline.z-link-disabled,
+  &.z-link-disabled.z-link-underline:focus,
+  &.z-link-disabled.z-link-underline.z-link-inverse {
+    text-decoration: underline;
+  }
 
-/* LINK Active */
-a.z-link-active {
-  color: var(--color-active-link);
-  fill: var(--color-active-link);
-}
+  /* LINK Active */
+  &.z-link-active {
+    color: var(--color-active-link);
+    fill: var(--color-active-link);
+  }
 
-a.z-link.z-link-inverse.z-link-active {
-  color: var(--color-inverse-active-link);
-  fill: var(--color-inverse-active-link);
-}
+  &.z-link-inverse.z-link-active {
+    color: var(--color-inverse-active-link);
+    fill: var(--color-inverse-active-link);
+  }
 
-a.z-link.z-link-black.z-link-active {
-  color: var(--color-black);
-  fill: var(--color-black);
-}
+  &.z-link-black.z-link-active {
+    color: var(--color-black);
+    fill: var(--color-black);
+  }
 
-/* TEXT COLOR VARIANT INVERSE */
-a.z-link-inverse {
-  color: var(--color-inverse-link);
-  fill: var(--color-inverse-link);
-}
+  /* TEXT COLOR VARIANT INVERSE */
+  &.z-link-inverse {
+    color: var(--color-inverse-link);
+    fill: var(--color-inverse-link);
+  }
 
-a.z-link.z-link-inverse:hover {
-  color: var(--color-inverse-hover-link);
-  fill: var(--color-inverse-hover-link);
-}
+  &.z-link-inverse:hover {
+    color: var(--color-inverse-hover-link);
+    fill: var(--color-inverse-hover-link);
+  }
 
-a.z-link.z-link-inverse:active,
-a.z-link.z-link-inverse:focus {
-  color: var(--color-inverse-pressed-link);
-  fill: var(--color-inverse-pressed-link);
-}
+  &.z-link-inverse:active,
+  &.z-link-inverse:focus {
+    color: var(--color-inverse-pressed-link);
+    fill: var(--color-inverse-pressed-link);
+  }
 
-a.z-link.z-link-inverse:visited {
-  color: var(--color-inverse-visited-link);
-  fill: var(--color-inverse-visited-link);
-}
+  &.z-link-inverse:visited {
+    color: var(--color-inverse-visited-link);
+    fill: var(--color-inverse-visited-link);
+  }
 
-/* TEXT COLOR VARIANT BLACK */
-a.z-link-black,
-a.z-link.z-link-black:focus,
-a.z-link.z-link-black:visited,
-a.z-link.z-link-black:hover:visited {
-  color: var(--gray800);
-  fill: var(--gray800);
-}
+  /* TEXT COLOR VARIANT BLACK */
+  &.z-link-black,
+  &.z-link-black:focus,
+  &.z-link-black:visited,
+  &.z-link-black:hover:visited {
+    color: var(--gray800);
+    fill: var(--gray800);
+  }
 
-a.z-link.z-link-black:hover,
-a.z-link.z-link-active.z-link-black:focus {
-  color: var(--color-black);
-  fill: var(--color-black);
-}
+  &.z-link-black:hover,
+  &.z-link-active.z-link-black:focus {
+    color: var(--color-black);
+    fill: var(--color-black);
+  }
 
-a.z-link.z-link-black:active,
-a.z-link.z-link-active.z-link-black:active {
-  color: var(--gray700);
-  fill: var(--gray700);
-}
+  &.z-link-black:active,
+  &.z-link-active.z-link-black:active {
+    color: var(--gray700);
+    fill: var(--gray700);
+  }
 
-a.z-link.z-link-disabled.z-link-active.z-link-black {
-  color: var(--color-disabled03);
-  fill: var(--color-disabled03);
-}
+  &.z-link-disabled.z-link-active.z-link-black {
+    color: var(--color-disabled03);
+    fill: var(--color-disabled03);
+  }
 
-/* TEXT COLOR VARIANT WHITE */
-a.z-link-white {
-  color: var(--bg-white);
-  fill: var(--bg-white);
-}
+  /* TEXT COLOR VARIANT WHITE */
+  &.z-link-white {
+    color: var(--bg-white);
+    fill: var(--bg-white);
+  }
 
-a.z-link.z-link-white:hover,
-a.z-link.z-link-white:focus,
-a.z-link.z-link-white:visited,
-a.z-link.z-link-white:hover:visited {
-  color: var(--bg-white);
-  fill: var(--bg-white);
-}
+  &.z-link-white:hover,
+  &.z-link-white:focus,
+  &.z-link-white:visited,
+  &.z-link-white:hover:visited {
+    color: var(--bg-white);
+    fill: var(--bg-white);
+  }
 
-a.z-link.z-link-white.z-link-disabled {
-  color: var(--color-disabled03);
-  fill: var(--color-disabled03);
-}
+  &.z-link-white.z-link-disabled {
+    color: var(--color-disabled03);
+    fill: var(--color-disabled03);
+  }
 
-/* LINK WHIT ICON ACCESSORY ClASS */
-a.z-link-icon {
-  align-items: center;
+  /* LINK WHIT ICON ACCESSORY ClASS */
+  &.z-link-icon {
+    align-items: center;
+  }
 }
