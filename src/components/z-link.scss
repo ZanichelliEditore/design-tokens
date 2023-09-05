@@ -20,27 +20,23 @@ a.z-link {
     text-decoration: underline;
   }
 
-  /* LINK HOVER AND FOCUS Status */
   &:hover,
   &:focus {
     color: var(--color-hover-link);
     fill: var(--color-hover-link);
   }
 
-  /* LINK PRESSED Status */
   &:active,
   &.z-link-active:active {
     color: var(--color-pressed-link);
     fill: var(--color-pressed-link);
   }
 
-  /* LINK VISITED Status */
   &:visited {
     color: var(--color-visited-link);
     fill: var(--color-visited-link);
   }
 
-  /* LINK Disabled */
   &.z-link-disabled,
   &.z-link-disabled.z-link-active {
     color: var(--color-disabled03);
@@ -51,12 +47,10 @@ a.z-link {
     outline: none;
   }
 
-  /* Link Underline */
   &.z-link-underline {
     text-decoration: underline;
   }
 
-  /* LINK Active */
   &.z-link-active {
     color: var(--color-active-link);
     fill: var(--color-active-link);
@@ -72,7 +66,6 @@ a.z-link {
     }
   }
 
-  /* TEXT COLOR VARIANT INVERSE */
   &.z-link-inverse {
     color: var(--color-inverse-link);
     fill: var(--color-inverse-link);
@@ -94,7 +87,6 @@ a.z-link {
     }
   }
 
-  /* TEXT COLOR VARIANT BLACK */
   &.z-link-black {
     color: var(--gray800);
     fill: var(--gray800);
@@ -116,13 +108,13 @@ a.z-link {
       fill: var(--gray700);
     }
 
+    &.z-link-disabled,
     &.z-link-disabled.z-link-active {
       color: var(--color-disabled03);
       fill: var(--color-disabled03);
     }
   }
 
-  /* TEXT COLOR VARIANT WHITE */
   &.z-link-white {
     color: var(--bg-white);
     fill: var(--bg-white);
@@ -133,7 +125,6 @@ a.z-link {
     }
   }
 
-  /* LINK WHIT ICON ACCESSORY ClASS */
   &.z-link-icon {
     align-items: center;
   }
