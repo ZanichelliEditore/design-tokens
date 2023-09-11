@@ -21,7 +21,7 @@ This repo is an auxiliary project to `zanichelli/design-system` [repo](https://g
   folder that contains every available color in the palette
 
 - `src/components`:
-  the folder contains classes for stylizing components
+  the folder contains classes to style components
 
 ## Naming Convention for Themes:
 
