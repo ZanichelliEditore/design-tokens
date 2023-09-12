@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.25](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.24...v0.2.25) (2023-09-12)
+
+
+### Features
+
+* add missing rule on black disabled | remove comments ([96c6d53](https://github.com/ZanichelliEditore/design-tokens/commit/96c6d532f932594c917cf360b59c8536dd465c03))
+* fix pseudo-classes ([0464cbd](https://github.com/ZanichelliEditore/design-tokens/commit/0464cbd442fc37a34397ee780b37dbbbddc6bd5f))
+* fix readme and remove --font-size-link --font-weight-link var, added class z-link-sb ([e2b274e](https://github.com/ZanichelliEditore/design-tokens/commit/e2b274e06a8c294de2685dd9d176d5f2663a8821))
+* new z-link class component ([0af9025](https://github.com/ZanichelliEditore/design-tokens/commit/0af90256943fdb92ab63b7efc3c06d727c947d5e))
+* update readme ([fd60afe](https://github.com/ZanichelliEditore/design-tokens/commit/fd60afe05ba4b0936651454ce443275386aa319f))
+* use scss rules ([b9da657](https://github.com/ZanichelliEditore/design-tokens/commit/b9da657dbcfbccd5abe005a4dacbf9b6be4a7132))
+* use scss rules and fix ([0c8e1a6](https://github.com/ZanichelliEditore/design-tokens/commit/0c8e1a65504117d2701cb0bce4bb7d1f30c33901))
+
 ### [0.2.24](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.23...v0.2.24) (2023-03-30)
 
 
