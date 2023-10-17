@@ -107,8 +107,8 @@ a.z-link {
   }
 
   &.z-link-white {
-    color: var(--bg-white);
-    fill: var(--bg-white);
+    color: var(--color-white);
+    fill: var(--color-white);
 
     &.z-link-disabled {
       color: var(--color-disabled03);
@@ -117,7 +117,11 @@ a.z-link {
   }
 
   &.z-link-icon {
+    --z-icon-width: 1.125em;
+    --z-icon-height: 1.125em;
+
     align-items: center;
+    column-gap: 0.5em;
   }
 
   &.z-link-sb {
