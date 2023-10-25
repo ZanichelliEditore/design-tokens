@@ -82,6 +82,13 @@ a.z-fab {
   color: var(--color-icon01);
 }
 
+.z-fab.z-fab-surface02 {
+  --z-fab-icon-fill: var(--color-icon01);
+
+  background-color: var(--color-surface02);
+  color: var(--color-icon01);
+}
+
 .z-fab.z-fab-surface04 {
   --z-fab-icon-fill: var(--color-icon03);
 
