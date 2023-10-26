@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.26](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.25...v0.2.26) (2023-10-26)
+
+
+### Features
+
+* add z-fab css component and enhance css components folder ([ce96841](https://github.com/ZanichelliEditore/design-tokens/commit/ce968410f67f4a725ffb9105f94a229ef5db75cd))
+
 ### [0.2.25](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.24...v0.2.25) (2023-09-12)
 
 
