@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.27](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.26...v0.2.27) (2023-11-08)
+
+
+### Bug Fixes
+
+* more precise line height ([d6e0a33](https://github.com/ZanichelliEditore/design-tokens/commit/d6e0a3357aab8a5a4a020589a55d17fbff35c6bb))
+
 ### [0.2.26](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.25...v0.2.26) (2023-10-26)
 
 
