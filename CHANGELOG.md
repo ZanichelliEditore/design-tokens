@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.30](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.29...v0.2.30) (2024-01-19)
+
+
+### Features
+
+* add blue25 token ([a06779a](https://github.com/ZanichelliEditore/design-tokens/commit/a06779ae0a72f77800778068efa8da0e7eb3a4b1))
+* assign blue25 to primary02 ([5727ace](https://github.com/ZanichelliEditore/design-tokens/commit/5727ace64ae9d4819b2645f3d73496b5bc88507d))
+
 ### [0.2.29](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.28...v0.2.29) (2024-01-18)
 
 ### [0.2.28](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.27...v0.2.28) (2023-11-09)
