@@ -2,12 +2,15 @@
   --color-surface01: var(--gray800);
 
   --color-primary01: var(--color-white);
-  --color-primary02: var(--gray800);
+  --color-primary02: #ffffff33;
+  --color-primary03: var(--gray100);
   --color-hover-primary: var(--color-primary01);
   --color-pressed-primary: var(--color-primary01);
 
   --color-text02: var(--color-white);
   --color-text-inverse: var(--gray800);
+
+  --color-input-field02: var(--gray800);
 
   --color-link-primary: var(--color-white);
   --color-hover-link: var(--color-link-primary);
