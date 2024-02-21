@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.32](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.31...v0.2.32) (2024-02-21)
+
+
+### Features
+
+* subjects palette colors ([e134217](https://github.com/ZanichelliEditore/design-tokens/commit/e13421774b22cee659b4a054da5a0680035dc7ed))
+
 ### [0.2.31](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.30...v0.2.31) (2024-01-31)
 
 ### [0.2.30](https://github.com/ZanichelliEditore/design-tokens/compare/v0.2.29...v0.2.30) (2024-01-19)
