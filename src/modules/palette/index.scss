@@ -1,15 +1,15 @@
-@import "gray";
-@import "blue";
-@import "green";
-@import "yellow";
-@import "red";
-@import "avatar";
-@import "subjects";
+@import 'gray';
+@import 'blue';
+@import 'green';
+@import 'yellow';
+@import 'red';
+@import 'avatar';
+@import 'subjects';
 
 :root {
   --color-error-default: #7e0a00;
   --color-success-default: #417505;
-  --color-warning-default: #f6bb3b;
+  --color-warning-default: #F6BB3B;
   --color-black: #000000;
-  --color-white: #ffffff;
+  --color-white: #FFFFFF;
 }
