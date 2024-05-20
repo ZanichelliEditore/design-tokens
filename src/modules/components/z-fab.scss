@@ -3,7 +3,7 @@
   --z-fab-right-offset: var(--grid-margin);
   --z-fab-bottom-offset: var(--grid-margin);
   --z-fab-icon-size: 20px;
-  --z-fab-icon-fill: var(--color-icon03);
+  --z-fab-icon-fill: var(--color-inverse-icon);
 
   position: fixed;
   z-index: 1;
@@ -18,7 +18,7 @@
   border-radius: 24px;
   box-shadow: var(--shadow-4);
   box-sizing: border-box;
-  color: var(--color-text04);
+  color: var(--color-text-inverse);
   cursor: pointer;
   font-family: var(--font-family-sans);
   font-size: var(--font-size-3);
@@ -70,31 +70,31 @@ a.z-fab {
 
 /* color variants */
 .z-fab.z-fab-primary03 {
-  --z-fab-icon-fill: var(--color-icon01);
+  --z-fab-icon-fill: var(--color-primary01-icon);
 
   background-color: var(--color-primary03);
-  color: var(--color-icon01);
+  color: var(--color-primary01-icon);
 }
 
 .z-fab.z-fab-surface01 {
-  --z-fab-icon-fill: var(--color-icon01);
+  --z-fab-icon-fill: var(--color-primary01-icon);
 
   background-color: var(--color-surface01);
-  color: var(--color-icon01);
+  color: var(--color-primary01-icon);
 }
 
 .z-fab.z-fab-surface02 {
-  --z-fab-icon-fill: var(--color-icon01);
+  --z-fab-icon-fill: var(--color-primary01-icon);
 
   background-color: var(--color-surface02);
-  color: var(--color-icon01);
+  color: var(--color-primary01-icon);
 }
 
 .z-fab.z-fab-surface04 {
-  --z-fab-icon-fill: var(--color-icon03);
+  --z-fab-icon-fill: var(--color-inverse-icon);
 
   background-color: var(--color-surface04);
-  color: var(--color-text04);
+  color: var(--color-text-inverse);
 }
 
 .z-fab z-icon {
