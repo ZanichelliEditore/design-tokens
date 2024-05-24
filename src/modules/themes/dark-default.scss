@@ -10,7 +10,7 @@
   --color-secondary02: var(--red900);
   --color-secondary03: var(--red800);
   --color-hover-secondary: var(--red200);
-  --color-active-primary: var(--red400);
+  --color-active-primary: var(--gray25);
 
   --color-surface01: var(--gray900);
   --color-surface02: var(--gray700);
@@ -22,7 +22,7 @@
   --color-text02: var(--gray900);
   --color-text03: var(--gray700);
   --color-text05: var(--gray500);
-  --color-text-inverse: var(--gray900);
+  --color-inverse-text: var(--gray900);
   --color-pressed-text: var(--gray300);
   --color-hover-text: var(--gray300);
 
@@ -53,21 +53,22 @@
   --color-danger01: var(--red50);
   --color-danger02: var(--red50);
   --color-text-error: var(--red50);
-  --color-inverse-error: var(--alert-red01);
-  --color-hover-error: var(--alert-red03);
-  --color-hover-danger: var(--alert-red03);
+  --color-inverse-error: var(--red700);
+  --color-hover-error: var(--red300);
+  --color-hover-danger: var(--red300);
 
   --color-success01: var(--green50);
   --color-success02: var(--green50);
-  --color-inverse-success: var(--alert-success01);
-  --color-hover-success: var(--alert-success03);
+  --color-inverse-success: var(--green700);
+  --color-hover-success: var(--green300);
   --color-inverse-hover-success: var(--green50);
+  --color-inverse-hover-error: var(--red50);
 
-  --color-warning01: var(--yellow200);
-  --color-warning02: var(--yellow200);
-  --color-inverse-warning: var(--yellow800);
+  --color-warning01: var(--yellow300);
+  --color-warning02: var(--yellow300);
+  --color-inverse-warning: var(--yellow700);
   --color-hover-warning: var(--yellow50);
-  --color-inverse-hover-warning: var(--yellow200);
+  --color-inverse-hover-warning: var(--yellow300);
 
   --color-background: var(--gray900);
 }
