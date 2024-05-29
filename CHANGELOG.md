@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ZanichelliEditore/design-tokens/compare/v1.0.2...v1.2.0) (2024-05-29)
+
+
+### Features
+
+* changed colours for themes ([14c1edd](https://github.com/ZanichelliEditore/design-tokens/commit/14c1edd537f5e1d984834b24e26a2863920e5b1f))
+* reverted default theme changes ([be085b3](https://github.com/ZanichelliEditore/design-tokens/commit/be085b3e37034275fbe30bb04f034fc8a695b9fc))
+* updated tokens for theme dark ([1bcb018](https://github.com/ZanichelliEditore/design-tokens/commit/1bcb01832a775cc6584002f45533a58e7a9e6d7d))
+
 ## [1.1.0](https://github.com/ZanichelliEditore/design-tokens/compare/v1.0.2...v1.1.0) (2024-05-29)
 
 
