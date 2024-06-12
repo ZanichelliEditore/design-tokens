@@ -71,4 +71,7 @@
   --color-inverse-hover-warning: var(--yellow300);
 
   background: var(--color-surface01);
+
+  --shadow-focus-primary: 0px 0px 0px 2px var(--gray800),
+    0px 0px 2px 5px var(--color-white);
 }
