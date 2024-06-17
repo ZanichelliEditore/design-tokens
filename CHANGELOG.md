@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.5...v1.2.6) (2024-06-17)
+
 ### [1.2.5](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.4...v1.2.5) (2024-06-13)
 
 
