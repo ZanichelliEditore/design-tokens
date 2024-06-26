@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.5...v1.2.6) (2024-06-17)
+
+### [1.2.5](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.4...v1.2.5) (2024-06-13)
+
+
+### Bug Fixes
+
+* add focus token on dark theme ([e48623f](https://github.com/ZanichelliEditore/design-tokens/commit/e48623f3d11c926b9f2ef7b6429ca9f01d673ec2))
+* restore shadow token on black-yellow theme ([add3d66](https://github.com/ZanichelliEditore/design-tokens/commit/add3d663d4c01ddd57172338d5bc0def225df242))
+* update focus token on black-yellow theme ([71eb41a](https://github.com/ZanichelliEditore/design-tokens/commit/71eb41a1876af41fd3bda8e23dfa7316b772f968))
+* update focus token on default theme ([81e7201](https://github.com/ZanichelliEditore/design-tokens/commit/81e720164778a844738cd9539528af7b8c09116f))
+* update shadow on dark theme ([f24ed51](https://github.com/ZanichelliEditore/design-tokens/commit/f24ed51122caf7ce37fa1b6383dc497fb096d20e))
+
 ### [1.2.4](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.3...v1.2.4) (2024-06-04)
 
 ### [1.2.3](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.2...v1.2.3) (2024-05-29)
