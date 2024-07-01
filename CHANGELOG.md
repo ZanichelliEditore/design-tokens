@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.6...v1.3.0) (2024-07-01)
+
+
+### Features
+
+* add IBM Plex Serif import url and variable ([7a9c9c5](https://github.com/ZanichelliEditore/design-tokens/commit/7a9c9c5582ab80f29113a70a6b4e2c9059b1db44))
+
 ### [1.2.6](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.5...v1.2.6) (2024-06-17)
 
 ### [1.2.5](https://github.com/ZanichelliEditore/design-tokens/compare/v1.2.4...v1.2.5) (2024-06-13)
