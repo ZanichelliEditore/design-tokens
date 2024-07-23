@@ -25,6 +25,11 @@
   font-weight: var(--font-rg);
   line-height: 1.25;
   transition: all 0.2s ease-in-out;
+
+  &:focus {
+    outline: none !important;
+    box-shadow: var(--shadow-focus-primary);
+  }
 }
 
 button.z-fab {
