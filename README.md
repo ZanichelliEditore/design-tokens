@@ -1,3 +1,8 @@
+> [!WARNING]
+> **This package is deprecated and no longer maintained.**
+> This repository is archived and read-only.
+> 
+
 ![Zanichelli logo](https://www.zanichelli.it/static/zanichelli/templates/zanichelli/_template_style/images/logo-print.png)
 
 # Zanichelli Design Tokens
